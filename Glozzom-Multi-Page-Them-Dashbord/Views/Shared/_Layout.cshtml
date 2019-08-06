@@ -80,9 +80,16 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!--Footer-->
+    <footer class="bg-dark text-white mt-5 p-5">
         <div class="container">
-            &copy; 2019 - Glozzom_Multi_Page_Them_Dashbord - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">
+                    &copy; 2019 - Glozzom_Multi_Page_Them_Dashbord - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -94,6 +101,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
         <script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
+
+
+
 
 
     </environment>
@@ -118,5 +128,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
+
+
 </body>
 </html>
